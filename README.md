@@ -1,6 +1,8 @@
 # retro-clock
 The goal was to make a working old-school digital clock.
 
+Link to CodePen here: https://codepen.io/ryan-chapel/pen/xxZKJve
+
 ![Retro Clock](https://github.com/chapeljuice/retro-clock/blob/master/retro-clock.png)
 
 I approached it a bit differently in that it's NOT USING ANY TEXT OR FONTS.
