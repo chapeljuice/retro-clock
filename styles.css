@@ -1,0 +1,139 @@
+/* compiled scss to css */
+
+body {
+  background: black;
+}
+
+.clock {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.clock .colon {
+  margin: 40px 40px 0;
+}
+
+.clock .colon div {
+  background-color: red;
+  border-radius: 50%;
+  height: 60px;
+  margin: 100px 0;
+  width: 60px;
+}
+
+.clock .colon.blinking div {
+  background-color: #111;
+}
+
+.clock .number {
+  height: 20vw;
+  margin: 0 20px;
+  width: 13vw;
+}
+
+.clock .number .top,
+.clock .number .bottom {
+  background: black;
+  border: 1vw solid #111;
+  height: 10vw;
+}
+
+.number.time-0 .top,
+.number.time-0 .bottom {
+  border-color: red;
+}
+
+.number.time-0 .top {
+  border-bottom-color: #111;
+}
+
+.number.time-0 .bottom {
+  border-top-color: #111;
+}
+
+.number.time-1 .top,
+.number.time-1 .bottom {
+  border-right-color: red;
+}
+
+.number.time-2 .top {
+  border-top-color: red;
+  border-right-color: red;
+}
+
+.number.time-2 .bottom {
+  border-left-color: red;
+  border-top-color: red;
+  border-bottom-color: red;
+}
+
+.number.time-3 .top {
+  border-top-color: red;
+  border-right-color: red;
+}
+
+.number.time-3 .bottom {
+  border-right-color: red;
+  border-top-color: red;
+  border-bottom-color: red;
+}
+
+.number.time-4 .top {
+  border-left-color: red;
+  border-right-color: red;
+}
+
+.number.time-4 .bottom {
+  border-top-color: red;
+  border-right-color: red;
+}
+
+.number.time-5 .top {
+  border-left-color: red;
+  border-top-color: red;
+}
+
+.number.time-5 .bottom {
+  border-top-color: red;
+  border-right-color: red;
+  border-bottom-color: red;
+}
+
+.number.time-6 .top {
+  border-left-color: red;
+  border-top-color: red;
+}
+
+.number.time-6 .bottom {
+  border-color: red;
+}
+
+.number.time-7 .top {
+  border-top-color: red;
+  border-right-color: red;
+}
+
+.number.time-7 .bottom {
+  border-right-color: red;
+}
+
+.number.time-8 .top,
+.number.time-8 .bottom {
+  border-color: red;
+}
+
+.number.time-8 .top {
+  border-bottom-color: #111;
+}
+
+.number.time-9 .top {
+  border-color: red;
+}
+
+.number.time-9 .bottom {
+  border-right-color: red;
+  border-bottom-color: red;
+}
