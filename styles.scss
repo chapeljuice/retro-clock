@@ -6,7 +6,6 @@
 $dark-border-color: #111;
 $bright-border-color: red;
 
-
 body {
   background: black;
 }
@@ -16,17 +15,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20px;
+  padding: 2vw;
   
   .colon {
-    margin: 40px 40px 0;
+    margin: 2.5vw 1vw 0;
     
     div {
       background-color: $bright-border-color;
       border-radius: 50%;
-      height: 60px;
-      margin: 100px 0;
-      width: 60px;
+      height: 3vw;
+      margin: 5vw 0;
+      width: 3vw;
     }
     
     &.blinking div {
@@ -36,7 +35,7 @@ body {
   
   .number {
     height: 20vw;
-    margin: 0 20px;
+    margin: 0 1.5vw;
     width: 13vw;
     
     .top,
