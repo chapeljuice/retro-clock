@@ -19,9 +19,9 @@ body {
 .clock .colon div {
   background-color: red;
   border-radius: 50%;
-  height: 60px;
+  height: 3vw;
   margin: 100px 0;
-  width: 60px;
+  width: 3vw;
 }
 
 .clock .colon.blinking div {
