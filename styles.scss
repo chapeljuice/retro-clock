@@ -1,0 +1,164 @@
+//////////////////////
+// RETRO CLOCK SCSS //
+//////////////////////
+
+/* color variables */
+$dark-border-color: #111;
+$bright-border-color: red;
+
+
+body {
+  background: black;
+}
+
+.clock {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  
+  .colon {
+    margin: 40px 40px 0;
+    
+    div {
+      background-color: $bright-border-color;
+      border-radius: 50%;
+      height: 60px;
+      margin: 100px 0;
+      width: 60px;
+    }
+    
+    &.blinking div {
+      background-color: $dark-border-color;
+    }
+  }
+  
+  .number {
+    height: 20vw;
+    margin: 0 20px;
+    width: 13vw;
+    
+    .top,
+    .bottom{
+      background: black;
+      border: 1vw solid $dark-border-color;
+      height: 10vw;
+    }
+  }
+}
+
+.number.time-0 {
+  .top,
+  .bottom{
+    border-color: $bright-border-color;
+  }
+  
+  .top {
+    border-bottom-color: $dark-border-color;
+  }
+  
+  .bottom {
+    border-top-color: $dark-border-color;
+  }
+}
+
+.number.time-1 {
+  .top,
+  .bottom{
+    border-right-color: $bright-border-color;
+  }
+}
+
+.number.time-2 {
+  .top {
+    border-top-color: $bright-border-color;
+    border-right-color: $bright-border-color;
+  }
+  
+  .bottom{
+    border-left-color: $bright-border-color;
+    border-top-color: $bright-border-color;
+    border-bottom-color: $bright-border-color;
+  }
+}
+
+.number.time-3 {
+  .top {
+    border-top-color: $bright-border-color;
+    border-right-color: $bright-border-color;
+  }
+  
+  .bottom{
+    border-right-color: $bright-border-color;
+    border-top-color: $bright-border-color;
+    border-bottom-color: $bright-border-color;
+  }
+}
+
+.number.time-4 {
+  .top {
+    border-left-color: $bright-border-color;
+    border-right-color: $bright-border-color;
+  }
+  
+  .bottom{
+    border-top-color: $bright-border-color;
+    border-right-color: $bright-border-color;
+  }
+}
+
+.number.time-5 {
+  .top {
+    border-left-color: $bright-border-color;
+    border-top-color: $bright-border-color;
+  }
+  
+  .bottom{
+    border-top-color: $bright-border-color;
+    border-right-color: $bright-border-color;
+    border-bottom-color: $bright-border-color;
+  }
+}
+
+.number.time-6 {
+  .top {
+    border-left-color: $bright-border-color;
+    border-top-color: $bright-border-color;
+  }
+  .bottom {
+    border-color: $bright-border-color;
+  }
+}
+
+.number.time-7 {
+  .top {
+    border-top-color: $bright-border-color;
+    border-right-color: $bright-border-color;
+  }
+  .bottom {
+    border-right-color: $bright-border-color;
+  }
+}
+
+.number.time-8 {
+  .top,
+  .bottom {
+    border-color: $bright-border-color;
+  }
+  
+  .top {
+    border-bottom-color: $dark-border-color;
+  }
+}
+
+.number.time-9 {
+  .top {
+    border-color: $bright-border-color;
+  }
+  
+  .bottom {
+    border-right-color: $bright-border-color;
+    border-bottom-color: $bright-border-color;
+  }
+}
